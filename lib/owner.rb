@@ -22,6 +22,7 @@ class Owner
    end
    
    def self.clear.all
-     @@all
+     @@all.clear
+   end
   
 end
