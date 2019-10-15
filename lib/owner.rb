@@ -49,6 +49,9 @@ class Owner
       cats.each{|c| c.mood = "happy"}
     end
     
+    def pets 
+      
+    
     def sell_pets 
     end
   
