@@ -8,6 +8,9 @@ class Cat
     @owner = owner
   end 
   
+  def initialize(mood)
+    @mood = nervous
+  end
   
   
 end
