@@ -21,7 +21,7 @@ class Owner
      @@all.count
    end
    
-   def self.clear.all
+   def self..all
      @@all.clear
    end
   
