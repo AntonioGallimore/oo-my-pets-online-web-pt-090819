@@ -53,7 +53,7 @@ class Owner
       pets = []
       pets = dogs
       pets = cats
-      pets << flatten
+      pets.flatten
     end
     
     
