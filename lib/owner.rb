@@ -50,15 +50,19 @@ class Owner
     end
     
     def pets 
-      pets = []
-      pets = dogs
-      pets = cats
-      pets.flatten
+      #pets = []
+      #pets = dogs
+      #pets = cats
+      #pets.flatten
+      
     end
     
     
     def sell_pets 
-      pets.each do|p| p.mood = "nervous"}
+      pets.each do|p|
+      p.mood = "nervous"
+      p.owner = nil 
+      
     end
   
 end
