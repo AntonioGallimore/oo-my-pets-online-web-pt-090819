@@ -7,14 +7,17 @@ class Owner
     @name = name
     @species = "human"
     @@all << self
- end
+  end
  
- def say_species
+   def say_species
    "I am a #{species}."
- end 
+   end 
  
- def self.all
+   def self.all
    @@all
- end
+   end
+   
+   def self.count
+     
   
 end
